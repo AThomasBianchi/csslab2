@@ -1,0 +1,10 @@
+body {
+  font-family: "Open Sans";
+}
+
+.circle {
+  border: solid;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
