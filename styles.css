@@ -6,7 +6,7 @@ body {
 }
 
 header h2 {
-  display: inline-block;
+  display: block;
   -webkit-margin-after: 0;
 }
 
@@ -41,7 +41,6 @@ nav {
 a {
   display: block;
   color: #69696a;
-  text-align: left;
   text-decoration: none;
 }
 
@@ -65,9 +64,8 @@ a {
   }
 
   .circles {
-    margin-top: 20px;
-    box-sizing: border-box;
     display: block;
+    margin-top: 20px;
     position: relative;
     max-width: 400px;
     min-width: 400px;
@@ -107,20 +105,17 @@ a {
   }
 
   .text {
-    display: block;
     flex-basis: 65%;
   }
 
   header {
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
   }
 
   main {
     display: flex;
     flex-direction: row;
-    align-content: center;
   }
 
   article {
@@ -130,7 +125,6 @@ a {
   nav a {
     display: inline-block;
     margin-left: 20px;
-    margin-right: 20px;
   }
 
   header h2 {
@@ -142,12 +136,11 @@ a {
   }
 
   footer .btn {
-    display: block;
     width: 200px;
     margin: 0 auto;
   }
 
-  #hire {
+  nav .btn {
     width: 120px;
   }
 }
